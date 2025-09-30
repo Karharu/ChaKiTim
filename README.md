@@ -18,8 +18,8 @@ A basic Java-based RPG played through the terminal, created for our Object-Orien
 
 ## 👥 Team
 [@Karharu](https://github.com/Karharu)  
-[@Cayl-06](https://github.com/Cayl-06)  
-[@EthannnJohnnn](https://github.com/EthannnJohnnn)
+[@CharuzuGT](https://github.com/CharuzuGT)  
+[@TimzkieLOL](https://github.com/TimzkieLOL)
 
 ## 📚 Educational Purpose
 This project is for learning and academic purposes only, created as part of our OOP1 final project.
