@@ -19,7 +19,7 @@ A basic Java-based RPG played through the terminal, created for our Object-Orien
 ## 👥 Team
 [@Karharu](https://github.com/Karharu)  
 [@CharuzuGT](https://github.com/CharuzuGT)  
-[@TimzkieLOL](https://github.com/TimzkieLOL)
+[@Timzkie](https://github.com/realtimzkie)
 
 ## 📚 Educational Purpose
 This project is for learning and academic purposes only, created as part of our OOP1 final project.
