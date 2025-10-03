@@ -311,6 +311,20 @@ public class Game{
         choice4.setVisible(false);
     }
 
+    public void ending(){
+        position = "ending";
+
+        mainTextArea.setText("Guard: Oh you killed that goblin!\nThank you so much. You are a true hero\nWelcome to our town!\n\n<THE END>");
+        choice1.setText("");
+        choice2.setText("");
+        choice3.setText("");
+        choice4.setText("");
+        choice1.setVisible(false);
+        choice2.setVisible(false);
+        choice3.setVisible(false);
+        choice4.setVisible(false);
+    }
+
     public class TitleScreenHandler implements ActionListener{
 
         public void actionPerformed(ActionEvent event){
@@ -328,7 +342,13 @@ public class Game{
             switch(position){
                 case "townGate":
                     switch(yourChoice){
-                        case "c1": talkGuard(); break;
+                        case "c1":
+                            if(silverRing == 1){
+                                ending();
+                            } else{
+                                talkGuard();
+                            }
+                            break;
                         case "c2": attackGuard(); break;
                         case "c3": crossRoad(); break;
                         case "c4": break;
